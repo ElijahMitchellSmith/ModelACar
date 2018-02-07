@@ -9,7 +9,7 @@ public class MainMenu {
     protected void createCar() {
 
         System.out.println("What car would you like to create?");
-        System.out.println("1.Custom \n2. Ready To Go \n3.Exit");
+        System.out.println("1.Custom \n2. Ready to go \n3.Exit");
 
         try {
             switch (input.nextInt()) {
@@ -70,6 +70,7 @@ public class MainMenu {
             } catch (InputMismatchException ime) {
                 input.nextLine();
                 System.out.println("Please enter a number between 1 and 4");
+
 
             }
         }
