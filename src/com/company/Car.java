@@ -72,7 +72,7 @@ public class Car extends Vehicle {
             car.setSpeed(car.getSpeed() + 1);
             car.setGas(car.getGas() - 1);
 
-            System.out.println("The "+ car.getModel() + " " + car.getSpeed() + " MPH and has " + car.getGas() + "% of its gas left" );
+            System.out.println("The "+ car.getModel() + " is going " + car.getSpeed() + " MPH and has " + car.getGas() + "% of its gas left" );
         }
 
         mainMenu.menu(car);
@@ -86,7 +86,7 @@ public class Car extends Vehicle {
             car.setSpeed(car.getSpeed() - 1);
             car.setGas(car.getGas() - 1);
 
-            System.out.println("The "+ car.getModel() + " " + car.getSpeed() + " MPH and has " + car.getGas() + "% of its gas left" );
+            System.out.println("The "+ car.getModel() + " is going " + car.getSpeed() + " MPH and has " + car.getGas() + "% of its gas left" );
         }
 
         mainMenu.menu(car);

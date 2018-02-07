@@ -16,7 +16,6 @@ public class MainMenu {
                 case 1:
                     //Accel
                     Car car = new Car();
-                    car.driveCar(car);
                     menu(car);
                     break;
                 case 2:
